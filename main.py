@@ -5,7 +5,7 @@ from tkinter import ttk
 root = tk.Tk()
 
 root.title("Yaz Lib")
-root.iconbitmap('icon.ico')
+root.iconbitmap('icon2.ico')
 width, height = 500, 500
 display_width= root.winfo_screenwidth()
 display_height= root.winfo_screenheight()
