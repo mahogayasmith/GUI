@@ -18,6 +18,10 @@ def button_click_func():
     label.configure(text=entry.get())
     #button.configure(state='disabled')
 
+label0 = ttk.Label(root)
+label0.pack()
+label0.configure(text="Test 01")
+
 
 entry = ttk.Entry(root)
 entry.pack()
